@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+h1, h2, h3, h4. h5, h6, p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  overflow:hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+header a:hover{
+  color: aqua;
+  font-weight: bold;
+}
+nav a{
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 20px;
+  line-height: 100px;
+  text-align: right;
+}
+
+header li{
+  float: left;
+  display:inline-flex;
+  padding: 0 20px 0 20px;
+}
+.section{
+  height: 100%;
+  background-color: aqua;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.subSection{
+  height: 50%;
+  background-color: bisque;
+  opacity: 0.6;
+}
+
+.sectionOne{
+  background-image: url("../images/Death_to_Stock_Photography_RideorDie_25-1024x683.jpeg");
+}
+
+.sectionTwo{
+background-image: url("../images/SAM_1158-1024x683.jpeg");
+}
+
+.sectionThree{
+  background-image: url("../images/SAM_1035-1024x683.jpeg");
+}
+
+.sectionFour{
+  background-image: url("../images/images (2).png");
+}
+
+.sectionFive{
+background-image: url("../images/images (10).jpeg");
+}
+
+.sectionSix{
+  background-image: url("../images/pexels-photo-141635.jpeg");
+}
+
+.sectionSeven{
+  background-image: url("../images/pexels-photo-305070.jpeg");
+}
+
+.sectionEight{
+background-image: url("../images/images (1).jpg");
+}
+
+.sectionNine{
+  background-image: url("../images/FB_IMG_1458107903978.jpg");
+}
